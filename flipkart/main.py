@@ -174,12 +174,12 @@ Visualized in a 4-slide Power BI dashboard:
 #bussiness recommendation
 col1, col2 = st.columns(2)
 with col1:
-    st.image("flipkart/data/flipkart_dashboard_1.jpg", caption="Slide 1: Overall Metrics", use_column_width=True)
-    st.image("flipkart/data/flipkart_dashboard_3.jpg", caption="Slide 3: Discount vs Profit", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_1.jpg", caption="Slide 1: Overall Metrics", use_container_width=True)
+    st.image("flipkart/data/flipkart_dashboard_3.jpg", caption="Slide 3: Discount vs Profit", use_container_width=True)
 
 with col2:
-    st.image("flipkart/data/flipkart_dashboard_2.jpg", caption="Slide 2: Top vs Bottom Products", use_column_width=True)
-    st.image("flipkart/data/flipkart_dashboard_4.jpg", caption="Slide 4: Time Series Analysis", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_2.jpg", caption="Slide 2: Top vs Bottom Products", use_container_width=True)
+    st.image("flipkart/data/flipkart_dashboard_4.jpg", caption="Slide 4: Time Series Analysis", use_container_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
