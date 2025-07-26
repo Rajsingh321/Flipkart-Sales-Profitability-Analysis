@@ -100,7 +100,7 @@ with st.container():
                 </p>
             </div>
         """, unsafe_allow_html=True)
-        with open("notebooks/collection and cleaning.ipynb", "rb") as f:
+        with open("flipkart/notebooks/collection and cleaning.ipynb", "rb") as f:
             st.download_button("See Code", f, file_name="flipkart_clean_&_format.ipynb", key="clean_data_download")
 
     # --- Dashboard Creation ---
