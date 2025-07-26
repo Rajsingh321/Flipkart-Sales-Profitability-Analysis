@@ -141,6 +141,8 @@ with st.container():
         with open("flipkart/files/flipkart_data_analysis_Presentation1.pptx", "rb") as f:
             st.download_button("See Presentation", f, file_name="flipkart_data_analysis_presentation.pptx", key="story_download")
 
+st.markdown("<hr>", unsafe_allow_html=True)
+
 # --- Key Insights ---
 st.markdown("## 📊 Key Insights", unsafe_allow_html=True)
 st.markdown("""
