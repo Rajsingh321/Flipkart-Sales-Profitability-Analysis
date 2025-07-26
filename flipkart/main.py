@@ -112,7 +112,7 @@ with st.container():
                 <p style='color: #555; font-size: 20px;'>Experienced in building clean, executive-level dashboards using Power BI for strategic decision-making.</p>
             </div>
         """, unsafe_allow_html=True)
-        with open("files/flipkart_dashbord_presentation.pptx", "rb") as f:
+        with open("flipkart/files/flipkart_dashbord_presentation.pptx", "rb") as f:
             st.download_button("See Dashboard", f, file_name="flipkart_dashboard_presentation.pptx", key="dash_download")
 
     # --- Business Insights ---
@@ -124,7 +124,7 @@ with st.container():
                 <p style='color: #555; font-size: 20px;'>Focused on delivering insights that solve business problems and drive growth using real-world datasets.</p>
             </div>
         """, unsafe_allow_html=True)
-        with open("notebooks/pandas_01.ipynb", "rb") as f:
+        with open("flipkart/notebooks/pandas_01.ipynb", "rb") as f:
             st.download_button("See Code", f, file_name="flipkart_analyze.ipynb", key="data_analyze_download")
 
     # --- Data Storytelling ---
@@ -138,7 +138,7 @@ with st.container():
                 </p>
             </div>
         """, unsafe_allow_html=True)
-        with open("files/flipkart_data_analysis_Presentation1.pptx", "rb") as f:
+        with open("flipkart/files/flipkart_data_analysis_Presentation1.pptx", "rb") as f:
             st.download_button("See Presentation", f, file_name="flipkart_data_analysis_presentation.pptx", key="story_download")
 
 # --- Key Insights ---
@@ -172,12 +172,12 @@ Visualized in a 4-slide Power BI dashboard:
 #bussiness recommendation
 col1, col2 = st.columns(2)
 with col1:
-    st.image("data/flipkart_dashboard_1.jpg", caption="Slide 1: Overall Metrics", use_column_width=True)
-    st.image("data/flipkart_dashboard_3.jpg", caption="Slide 3: Discount vs Profit", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_1.jpg", caption="Slide 1: Overall Metrics", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_3.jpg", caption="Slide 3: Discount vs Profit", use_column_width=True)
 
 with col2:
-    st.image("data/flipkart_dashboard_2.jpg", caption="Slide 2: Top vs Bottom Products", use_column_width=True)
-    st.image("data/flipkart_dashboard_4.jpg", caption="Slide 4: Time Series Analysis", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_2.jpg", caption="Slide 2: Top vs Bottom Products", use_column_width=True)
+    st.image("flipkart/data/flipkart_dashboard_4.jpg", caption="Slide 4: Time Series Analysis", use_column_width=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
