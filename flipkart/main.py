@@ -121,7 +121,7 @@ with st.container():
             <div style='background-color: #ffffff; border: 1px solid #eee; border-radius: 12px; padding: 24px; text-align: center;'>
                 <div style='font-size: 36px;'>💡</div>
                 <h4 style='margin-top: 10px;'>Business Insights</h4>
-                <p style='color: #555; font-size: 20px;'>Focused on delivering insights that solve business problems and drive growth using real-world datasets.</p>
+                <p style='color: #555; font-size: 20px;'>Focused on delivering insights that solve business problems & help in desion making and  drive growth using real-world datasets.</p>
             </div>
         """, unsafe_allow_html=True)
         with open("flipkart/notebooks/pandas_01.ipynb", "rb") as f:
