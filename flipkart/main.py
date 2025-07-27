@@ -259,6 +259,6 @@ with contact_col:
     <p style='font-size: 25px;'>                
     📧 Email: <b>rajbgi377@gmail.com</b><br>
     🔗 <a href="https://www.linkedin.com/in/rajsinghsendhav" target="_blank">LinkedIn Profile</a><br>
-    📁 <a href="https://yourwebsite.com/resume.pdf" target="_blank">Download Resume</a>
+    📁 <a href="https://github.com/Rajsingh321" target="_blank">GitHub</a>
     </p>
     """, unsafe_allow_html=True)
